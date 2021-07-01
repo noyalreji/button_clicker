@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="button.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="nav1">
+          <a class="active" href="#home">Dojonary</a>
+          <input type="text" placeholder="Search.." />
+          <button onclick="turnOff(this)">Login</button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="main_content_top">
+        <div class="content_left">
+          <h1 class="title">ninja</h1>
+          <p>noun</p>
+          <p>Plural:ninjas</p>
+          <button onclick="alert('Ninja was liked')">13 likes</button>
+        </div>
+        <div class="content_right">
+          <p>
+            A practitioner skilled in the
+            <a href="url">Japanese</a>
+            art of <a href="url">ninjustsu</a>
+          </p>
+        </div>
+      </div>
+      <div class="main_content_bottom">
+        <div class="content_left">
+          <h1 class="title">ninja</h1>
+          <p>noun</p>
+          <p>Plural:ninjas</p>
+          <button onclick="alert('Ninja was liked')">37 likes</button>
+        </div>
+        <div class="content_right">
+          <p>
+            A programmer who breaks down problems with zen-like focus
+            <a href="url">Japanese</a>
+            art of <a href="url">ninjustsu</a>
+          </p>
+        </div>
+      </div>
+
+      <aside>
+        <div class="definition">
+          <h3>Dojonary is defined by Noyal Jacob</h3>
+          <button class="Add_definition" onclick="hide(this)">
+            Add Definition
+          </button>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
